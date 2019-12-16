@@ -13,15 +13,56 @@ li{
 nav a{
   color: white;
 }
+
+.nav-link {
+  mix-blend-mode: difference;
+}
 .main-container{
   background: url("./img/wine-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  /* background-position: 50% 50%; */
   height: 950px;
   width: 100%;
-  filter: brightness(80%);
+  /* justify-content: center;
+  align-items: center; */
+  /* filter: brightness(80%); */
 }
+
+.navbar{
+  color: white;
+}
+
+/* .eff {
+  height: 35rem;
+  width: auto;
+  filter: opacity(38%);
+  background: url("./img/FoundryLogo.png"); */
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 12rem;
+} */
+
+.eff {
+  height: 35rem;
+  width: auto;
+  filter: opacity(38%);
+  /* background: url("./img/FoundryLogo.png"); */
+  /* background-repeat: no-repeat;
+  background-size: contain; */
+  margin-top: 12rem;
+  position: absolute;
+}
+.effContainer {
+  padding-top: 12rem;
+}
+.effWords {
+  filter: opacity(100%);
+  position: relative;
+  bottom: 7rem;
+}
+
+
 .first{
   background: url("./img/wine13.jpg");
   width: 100%;
@@ -31,10 +72,8 @@ nav a{
 
 }
 
-.opening{
-  width: 300px;
-  text-align: center;
-  color: white;
+.openingContent{
+padding-top: 20rem;
 }
 
 .wine{
@@ -44,11 +83,11 @@ nav a{
 .awards{
   background:url("./img/wine13.jpg");
   height: 1100px;
-  filter:brightness(67%);
   background-size: cover;
 }
 .circle{
   background-color: transparent;
+  filter:brightness(94%);
   height: 200px;
   width: 200px;
   align-self: center;
@@ -77,16 +116,7 @@ height: 63px;
   width: 100%;
 }
 
-.navbar{
-  color: white;
-}
 
-.eff{
-  height: 488px;
-  width: 360px;
-  filter: brightness(90%);
-  filter: opacity(72%);
-}
 
 .address{
   border-top: 1px solid gray;
