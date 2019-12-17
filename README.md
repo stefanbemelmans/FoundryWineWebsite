@@ -1,5 +1,5 @@
 # FoundryWineWebsite
-A mock website for a vineyard showcasing my skills HTML5 and CSS3.
+A mock website for a vineyard. 
 
 I built this while enrolled at the Austin Coding Acadamy.
 
