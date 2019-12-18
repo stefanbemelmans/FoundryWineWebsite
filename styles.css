@@ -50,7 +50,7 @@ nav a{
   /* background: url("./img/FoundryLogo.png"); */
   /* background-repeat: no-repeat;
   background-size: contain; */
-  margin-top: 12rem;
+  margin-top: 23rem;
   position: absolute;
 }
 .effContainer {
@@ -59,7 +59,7 @@ nav a{
 .effWords {
   filter: opacity(100%);
   position: relative;
-  bottom: 7rem;
+  bottom: -20rem;
 }
 
 
